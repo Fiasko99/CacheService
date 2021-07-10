@@ -37,7 +37,7 @@ amqp.connect('amqp://localhost:5672', function(error0, connection) {
           res(reply)
         })
       })
-
+      
       if(burfferToken) {
         answer = 1
       }
